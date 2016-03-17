@@ -21,6 +21,8 @@ body{
 li{
 	list-style: none;
 	display: inline;
+	margin-right: 3px;
+	margin-left: 3px;
 }
 
 li>a{
@@ -30,6 +32,9 @@ li>a{
 .active{
 	font-size: 18px;
 	background-color: #aaaaaa;
+	border-radius: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
 }
 
 .hover{
@@ -38,6 +43,10 @@ li>a{
 
 li:hover{
 	background-color: #666666;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 10px;
+	color: #dddddd;
 }
 
 li>a:hover{
@@ -59,8 +68,6 @@ li>a:hover{
 @media screen and (min-width: 175px) and (max-width: 780px){
 	body{
 		background-color: #999999;
-		margin-left: 10px;
-		margin-right: 10px;
 	}
 
 	.main{
@@ -77,11 +84,14 @@ li>a:hover{
 		margin-left: auto;
 		margin-right: auto;
 		width: 50%;
+		padding-bottom: 5px;
 	}
 
 	li{
 		list-style: none;
 		display: block;
+		margin-right: 40px;
+		padding-top: 5px;
 	}
 
 	li>a{
@@ -110,7 +120,7 @@ li>a:hover{
 	.content-main{
 		display: block;
 		background-color: #888888;
-		width: 50%;
+		width: 75%;
 		border-radius: 10px;
 		margin-right: auto;
 		margin-left: auto;
