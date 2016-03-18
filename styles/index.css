@@ -49,3 +49,7 @@ h1{
 .carousel-indicators .active {
   background-color: #666;
 }
+
+.carousel-bg{
+	background-color: #aaa;
+}
