@@ -34,7 +34,8 @@ h1{
 }
 
 .carousel-inner{
-	padding-bottom: 100px;
+	margin-bottom: 100px;
+	background-color: #a0a0a0;
 }
 
 .standout{
